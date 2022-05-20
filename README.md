@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
-</p>
-
 # Simple Shell project 0x16.c - Sodash -
 
 This is a simple UNIX command interpreter based on bash and Sh.
@@ -23,8 +19,8 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o sodash
 
 Example:
 ```
-$ echo "echo 'holberton'" | ./sodash
-'holberton'
+$ echo "echo 'alx'" | ./sodash
+'alx'
 $
 ```
 
@@ -41,9 +37,9 @@ If a command line argument is invoked, **sodash** will take that first argument 
 Example:
 ```
 $ cat text
-echo 'holberton'
+echo 'alx'
 $ ./sodash text
-'holberton'
+'alx'
 $
 ```
 
@@ -64,7 +60,7 @@ The current working directory as set by the **cd** command.
 
 ```
 $ echo "echo $PWD" | ./sodash
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### OLDPWD
@@ -72,7 +68,7 @@ The previous working directory as set by the **cd** command.
 
 ```
 $ echo "echo $OLDPWD" | ./sodash
-/home/vagrant/holberton/bog-062019-test_suite
+/home/vagrant/alx/bog-062019-test_suite
 ```
 
 #### PATH
@@ -119,7 +115,7 @@ $ ./sodash
 Example:
 ```
 $ echo "echo $PWD" | ./sodash
-/home/vagrant/holberton/simple_shell
+/home/vagrant/alx/simple_shell
 ```
 
 #### $?
@@ -146,8 +142,8 @@ $ echo "echo $$" | ./sodash
 
 Example:
 ```
-$ echo "echo 'holberton' #this will be ignored!" | ./sodash
-'holberton'
+$ echo "echo 'alx' #this will be ignored!" | ./sodash
+'alx'
 ```
 
 ### Operators
@@ -263,10 +259,9 @@ $ echo $NAME
 $
 ```
 
-## Authors & Copyrights
+## Author & Copyright
 
-* Mehari Tesfaye <(https://github.com/mehari123)>
-
+* Mesekir Getachew <[Mesekir19](https://github.com/Mesekir19)>
 
 ## More information
 
